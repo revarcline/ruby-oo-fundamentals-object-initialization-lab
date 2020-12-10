@@ -4,9 +4,7 @@ class Dog
     @name = name
   end
 
-  attr_writer :breed
-
-  attr_writer :name
+  attr_writer :breed, :name
 
   attr_reader :name
 end
